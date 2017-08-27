@@ -1,2 +1,10 @@
 data/product.db
 lib
+compile.bat
+classes/com/tm/inventory/dl/*.class
+classes/com/tm/inventory/ds/*.class
+classes/com/tm/inventory/managers/*.class
+classes/com/tm/inventory/modules/*.class
+classes/com/tm/inventory/processor/*.class
+classes/com/tm/inventory/servlets/*.class
+classes/com/tm/inventory/utility/*.class
