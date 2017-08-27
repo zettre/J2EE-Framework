@@ -19,7 +19,7 @@ throw new DAOException("JDBC driver not found: org.sqlite.JDBC");
 Connection connection=null;
 try
 {
-connection=DriverManager.getConnection("jdbc:sqlite:c:/tomcat7/webapps/product/WEB-INF/data/product.db");
+connection=DriverManager.getConnection("jdbc:sqlite:c:/tomcat7/webapps/framework/WEB-INF/data/product.db");
 }catch(SQLException sqlException)
 {
 throw new DAOException("Cannot connect to database: product.db");
